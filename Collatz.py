@@ -1,4 +1,4 @@
-def collatz(number):   
+def collatz(number):  # The Collatz Sequence 
     try:
         if number % 2 == 0:
             result = number // 2
